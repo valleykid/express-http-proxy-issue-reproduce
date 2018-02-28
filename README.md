@@ -11,4 +11,4 @@ npm install
 npm start
 ```
 
-And access [http://127.0.0.1:8000/index.html].
+And access http://127.0.0.1:8000/index.html.
