@@ -1,0 +1,34 @@
+{
+  "name": "express-http-proxy-issue-reproduce",
+  "version": "1.0.0",
+  "description": "A reproduce-demo for [express-http-proxy](https://github.com/villadora/express-http-proxy).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valleykid/express-http-proxy-issue-reproduce.git"
+  },
+  "author": "vk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valleykid/express-http-proxy-issue-reproduce/issues"
+  },
+  "homepage": "https://github.com/valleykid/express-http-proxy-issue-reproduce#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "qs": "^6.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0"
+  }
+}
